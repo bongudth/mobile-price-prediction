@@ -1,7 +1,7 @@
 
-# Dự đoán giá điện thoại
+# 📱 Dự đoán giá điện thoại
 
-## Các thư viện cần cài đặt
+## ⚒ Các thư viện cần cài đặt
 
 | Thư viện  | Lệnh cài đặt                  | Mô tả          |
 | :-------  | :---------------------------- | :------------- |
@@ -9,7 +9,7 @@
 | `sklearn` | `pip install -U scikit-learn` | scikit-learn   |
 | `xgboost` | `pip install xgboost`         | XGBoost        |
 
-## Trình tự chạy chương trình
+## 🚀 Trình tự chạy chương trình
 
 Crawl dữ liệu từ 4 trang web
 
@@ -53,36 +53,36 @@ Xây dựng mô hình dự đoán giá điện thoại
   modeling.ipynb
 ```
 
-## Thành viên
+## 👨🏽‍💻 Thành viên
 
 - [Ngô Văn Đông](https://github.com/ngovandong)
 - [Huỳnh Thị Khánh Linh](https://github.com/bongudth)
 - [Nguyễn Minh Dũng](https://github.com/dungngminh)
 
-## Dữ liệu
+## ✍🏽 Dữ liệu
  Bộ dữ liệu bao gồm các thông số kỹ thuật, giá bán của điện thoại di động, được thu thập từ:
  - [Thế Giới Di Động](https://www.thegioididong.com/)
  - [CellphoneS](https://cellphones.com.vn/)
  - [Hoàng Hà Mobile](https://hoanghamobile.com/)
  - [Nguyễn Kim](https://www.nguyenkim.com/dien-thoai-di-dong)
 
-## Feature engineering
+## 🔨 Feature engineering
  - Thay thế dữ liệu trống bằng giá trị **mean** cho **dữ liệu dạng số**
  - Thay thế dữ liệu trống bằng giá trị **random** cho **dữ liệu phân loại**
  - Chuyển dữ liệu phân loại thành dữ liệu dạng số sử dụng **LabelEncoder** của *sklearn*
  - Xử lý ngoại lệ sử dụng **IQR** để tìm biên trên và biên dưới của dữ liệu
  - Chuẩn hóa dữ liệu sử dụng **StandardScaler** của *sklearn*
 
-## Mô hình dự đoán
+## 💡 Mô hình dự đoán
  - Sử dụng **LinearRegression** của *sklearn*
  - Cải tiến dùng **XGBRegressor** của *xgboost*
 
-## Các metrics đánh giá
+## 🧠 Các metrics đánh giá
  - **R2**
  - **RMSE**
  - **MAE**
 
-## Kết quả dự đoán
+## ☃️ Kết quả dự đoán
 
 | Mô hình          | R2     | RMSE      | MAE       |
 | :--------------- | :----- | :-------- | :-------- |
