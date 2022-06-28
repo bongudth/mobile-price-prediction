@@ -86,5 +86,5 @@ Xây dựng mô hình dự đoán giá điện thoại
 
 | Mô hình          | R2     | RMSE      | MAE       |
 | :--------------- | :----- | :-------- | :-------- |
-| LinearRegression | 78.44% | 4699.2257 | 3718.2099 |
-| XGBRegressor     | 94.87% | 2290.0341 | 1036.1285 |
+| LinearRegression | 73.17% | 5241.0791 | 3947.1287 |
+| XGBRegressor     | 94.45% | 2383.5217 | 1057.4660 |
